@@ -1,4 +1,4 @@
-FUNCTION FOR TRUNCATION
+%FUNCTION FOR TRUNCATION
 Function beq=a2dT(d,n)
 m=1;d1=abs(d);
 while fix(d1)>0
@@ -26,9 +26,9 @@ d1=(d1*2)-fix(d1*2);
 end
 beq=sign(d).*beq*10^(m-1);
 
-MAIN PROGRAM
+%MAIN PROGRAM
 
-A.DIRECT  FORM
+%A.DIRECT  FORM
 Clc;	
 Clear all;
 Close all;
