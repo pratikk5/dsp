@@ -1,4 +1,4 @@
-//Limit cycle oscillations
+%Limit cycle oscillations
 function beq=a2dR(d,n)
 m=1;
 d1=abs(d);
