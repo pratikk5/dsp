@@ -1,4 +1,4 @@
-//decimation and interpolation
+%decimation and interpolation
 clc;
 clear all;
 close all;
