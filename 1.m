@@ -1,4 +1,4 @@
-//Basic signal representation
+%Basic signal representation
 clear all;
 clc;
 close all;
