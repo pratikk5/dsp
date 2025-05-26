@@ -1,5 +1,5 @@
-//FIR filter design
-A)HAMMING WINDOW
+%FIR filter design
+%A)HAMMING WINDOW
 %HAMMING WINDOW
 close all;clear all;clc;
 wc=0.5*pi;N=25;
@@ -49,7 +49,7 @@ xlabel('normalised frequency in hz');
 ylabel('Gain in db');
 title('HAMMING WINDOW:Band stop filter');grid on;
 
-B)HANNING WINDOW
+%B)HANNING WINDOW
 
 %HANNING WINDOW
 close all;clear all;clc;
@@ -102,7 +102,7 @@ title('HANNING WINDOW:BAND STOP filter');grid on;
 
 
 
-C)BOXCAR WINDOW
+%C)BOXCAR WINDOW
 close all;clear all;clc;
 wc=0.5*pi;N=25;
 b=fir1(N,wc/pi,boxcar(N+1));
@@ -148,7 +148,7 @@ xlabel('normalized frequency in hz');
 ylabel('Gain in db');
 title('BOXCAR:BAND STOP filter');grid on;
 
-D)BARTLETT WINDOW
+%D)BARTLETT WINDOW
 %BARTLETT WINDOW
 close all;clear all;clc;
 wc=0.5*pi;N=25;
@@ -195,7 +195,7 @@ xlabel('normalized frequency in hz');
 ylabel('Gain in db');
 title('bartlett:BAND STOP filter');grid on;
 
-E)TRIANGULAR WINDOW
+%E)TRIANGULAR WINDOW
 %TRIANGULAR WINDOW
 close all;clear all;clc;
 wc=0.5*pi;N=25;
