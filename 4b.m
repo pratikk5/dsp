@@ -1,3 +1,4 @@
+%calculation of power spectrum
 clc;
 close all;
 clear all;
