@@ -1,5 +1,5 @@
-//IIR filter design
-A)BUTTERWORTH
+%IIR filter design
+%A)BUTTERWORTH
 
 %BUTTERWORTH LPF
 clc;
@@ -87,7 +87,7 @@ freqz(bz,az,w);
 title('butterworth digital bandstop filter');
 grid;
 
-B)CHEBYSHEV TYPE I
+%B)CHEBYSHEV TYPE I
 
 %CHEBYSHEV-I LPF
 clc;
@@ -170,7 +170,7 @@ title('chebyshev type 1 bandstop digital  filter');
 grid;
 
 
-C)CHEBYSHEV TYPE II
+%C)CHEBYSHEV TYPE II
 
 %CHEBYSHEV-II LPF
 clc;
