@@ -1,4 +1,4 @@
-//Block diagram reduction using matlab
+%Block diagram reduction using matlab
 clc
 clear all
 close all
@@ -31,4 +31,4 @@ display(x1);
 display(x2);          
 display(yn);          
 
-Output sequence: 2     6    17    33    54    57    55    39    16     9
+%Output sequence: 2     6    17    33    54    57    55    39    16     9
