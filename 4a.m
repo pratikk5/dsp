@@ -1,4 +1,4 @@
-//fft
+%fft
 clc;
 clear all;
 close all;
@@ -13,9 +13,11 @@ disp(z);
 title('8 point fft');
 
  
-Sample input: [2 2 2 2 1 1 1 1]
-Output of FFT : [12.0000 + 0.0000i   1.0000 - 2.4142i   0.0000 + 0.0000i   1.0000 - 0.4142i  0.0000 + 0.0000i   1.0000 + 0.4142i   0.0000 + 0.0000i   1.0000 + 2.4142i]
-//ifft
+%Sample input: [2 2 2 2 1 1 1 1]
+%Output of FFT : [12.0000 + 0.0000i   1.0000 - 2.4142i   0.0000 + 0.0000i   1.0000 - 0.4142i  0.0000 + 0.0000i   1.0000 + 0.4142i   0.0000 + 0.0000i   1.0000 + 2.4142i]
+
+
+%ifft
 clc;
 close all;
 clear all;
