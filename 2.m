@@ -1,4 +1,4 @@
-A) LINEAR CONVOLUTION
+%A) LINEAR CONVOLUTION
 %convolution of sequences x(n) and h(n)
 clc
 clear all
@@ -32,7 +32,7 @@ xlabel('time->');
 ylabel('amplitude->');
 grid;
 
-B)CIRCULAR CONVOLUTION
+%B)CIRCULAR CONVOLUTION
 
 clc
 clear all
@@ -74,19 +74,19 @@ ylabel('amplitude->');
 title('y(n)');
 
 
-sample inputs:
+%sample inputs:
 
->> linear_convolution
-enter the x sequence[1 2 3 4]
-enter the index value 0
-enter the h sequence[4 5 6 10]
-enter the index value -1
-output sequence of linear convolution
-    4    13    28    53    58    54    40
+%>> linear_convolution
+%enter the x sequence[1 2 3 4]
+%enter the index value 0
+%enter the h sequence[4 5 6 10]
+%enter the index value -1
+%output sequence of linear convolution
+%    4    13    28    53    58    54    40
 
->> circular_convolution
-enter the first sequence[1 2 3 4]
-enter the second sequence[1 2]
-output sequence of circular convolution
-    9 4 7 10
+%>> circular_convolution
+%enter the first sequence[1 2 3 4]
+%enter the second sequence[1 2]
+%output sequence of circular convolution
+% 9 4 7 10
 
